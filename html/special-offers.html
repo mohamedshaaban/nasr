@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Welcome to Bastaat</title>
+    <link id="" rel="shortcut icon" href="favicon.ico?" />
+
+
+    <!-- Google Font face -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- SLick Slider -->
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css"/>
+    <!-- Font face -->
+    <link rel="stylesheet" href="css/fonts.css" />
+    <!-- custom input -->
+    <link rel="stylesheet" href="css/custom-input.css" />
+
+    <link rel="stylesheet" href="css/jquery-ui.css" />
+    <!-- custom style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="clearfix">
+      <div class="full-width">
+        <div class="container">
+          <div class="row nav-section">
+            <div class="col-lg-1 col-sm-2">
+              <a class="navbrand" href="index.html">
+                <img src="images/logo.png" style="max-width: none;" alt="logo" class="mCS_img_loaded" />
+              </a><!-- /.logo -->
+            </div><!-- /.col-lg-10 -->
+            <div class="col-lg-6 col-sm-10 clearfix">
+              <div class="navigation full-width">
+                  <nav class="navbar navbar-default">
+                    <div class="navbar-header">
+                      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
+                    <div class="collapse navbar-collapse js-navbar-collapse">
+                      <ul class="nav navbar-nav">
+                        <li>
+                          <a href="about-us.html">About Us</a>
+                        </li><!--/li-->
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="vegetables.html">Vegetables</a></li>
+                            <li><a href="fruits.html">Fruits </a></li>
+                            <li><a href="plants.html">Plants & Trees </a></li>
+                            <li><a href="fodder.html">Fodder</a></li>
+                            <li><a href="fish.html">Fish</a></li>
+                            <li><a href="livestock.html">Livestock & Products</a></li>
+                            <li><a href="poultry.html">Poultry & Products</a></li>
+                            <li><a href="leaves.html">Leaves </a></li>
+                            <li><a href="salads.html">Salads</a></li>
+                            <li><a href="organic.html">Organic products</a></li>
+                            <li><a href="tools.html">Tools</a></li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="special-offers.html">Special Offers</a>
+                        </li><!--/li-->
+                        <li>
+                          <a href="contact-us.html">Contact Us</a>
+                        </li><!--/li-->
+                      </ul>
+                    </div>
+                    <!-- /.nav-collapse -->
+
+                    <!-- /.search_box_cover -->
+                  </nav>
+                <!-- /.navigation -->
+              </div>
+              <!-- /.col-lg-10 -->
+            </div><!-- /.col-lg-11 -->
+            <div class="col-lg-5 top-sec clearfix">
+              <ul class="top-links">
+                <li>
+                  <a class="main" href="register.html">Register</a>
+                </li><!--/li-->
+                 <li>
+                  <a class="main" href="login.html">Vendor Login</a>
+                </li><!--/li-->
+                <li>
+                  <a class="main" href="login.html">Sign In</a>
+                </li><!--/li-->
+                <li>
+                  <a class="main" href="wishlist.html"><img src="images/wishlist.png" alt=""></a>
+                </li><!--/li-->
+                <li>
+                  <a class="main" href="#" id="cartEnable"><img src="images/cart.png" alt=""></a>
+                  <div class="cart_box" id="cart_bx">
+                    <div class="cart_contents full-width">
+                      <h2>recently adDed to cart</h2>
+                      <h1 class="ttl-crt">2 items </h1>
+                      <div class="border_dashed full-width">
+                        <img src="images/tomatto.jpg" alt="cart" class="mCS_img_loaded">
+                        <h1>Fresh Tomatoes Boxes</h1>
+
+                        <h3>KD 50.00</h3>
+                        <h1 class="crt-price">Qty : 1</h1>
+                        <h3 class="cart-btnx crt-mt-10">
+                          <a href="cart.html">
+                            <img src="images/edit.png" alt="">
+                          </a>
+                          <a class="delete-4-cart" href="">
+                            <img src="images/dlt.png" alt="">
+                          </a>
+                        </h3>
+                        <p class="cart-see-more" data-toggle="collapse" data-target="#crtinx">View Details </p>
+                        <div id="crtinx" class="collapse cart-see-more cbz">
+                          <p>
+                            <span>color</span>
+                          </p>
+                          <p>Red</p>
+                        </div>
+                      </div>
+                      <!-- /.border_dashed -->
+                      <div class="border_dashed full-width">
+                        <img src="images/tomatto.jpg" alt="cart" class="mCS_img_loaded">
+                        <h1>Fresh Tomatoes Boxes</h1>
+
+                        <h3>KD 50.00</h3>
+                        <h1 class="crt-price">Qty : 1</h1>
+                        <h3 class="cart-btnx crt-mt-10">
+                          <a href="cart.html">
+                            <img src="images/edit.png" alt="">
+                          </a>
+                          <a class="delete-4-cart" href="">
+                            <img src="images/dlt.png" alt="">
+                          </a>
+                        </h3>
+                        <p class="cart-see-more" data-toggle="collapse" data-target="#crtinx1">View Details </p>
+                        <div id="crtinx1" class="collapse cart-see-more cbz">
+                          <p>
+                            <span>color</span>
+                          </p>
+                          <p>Red</p>
+                        </div>
+                      </div>
+                      <!-- /.border_dashed -->
+                      <h1 class="crt-total">Total</h1>
+                      <h1 class="crt-price-ttl">KD 100.00</h1>
+                    </div>
+                     <!-- /.cart_contents -->
+                    <a href="#" class="button-crt" type="button">VIEW SHOPPING BAG</a>
+                  </div><!--/.cart_box-->
+                </li><!--/li-->
+                <li>
+                <a class="main" href="#search">
+                  <span class=""><img src="images/search.png" alt=""></span>
+                </a>
+                </li><!--/li-->
+                <li>
+                  <a class="main" href="#"><img src="images/ar.png" alt=""></a>
+                </li><!--/li-->
+              </ul>
+            </div>
+          </div><!-- /.row -->
+        </div><!--/.container-->
+      </div>
+
+      <!--Seaarch Pop up-->
+      <div id="search">
+        <button type="button" class="close">×</button>
+        <form>
+            <input type="search" value="" placeholder="Type Your Keywords" />
+            <button type="submit" class="btn btnlg">Search</button>
+        </form>
+      </div>   
+    </header><!--/header-->
+
+    <div class="innr-banner fullwidth">
+      <div class="container">
+        <img src="images/add.jpg">
+      </div>
+    </div><!--/.banner-->
+
+    <div class="container">
+      <ul class="breadcrumb">
+          <li><a href="{{ route('home') }}">{{__('website.home_label')}}</a></li>
+          <li class="active">Special Offers</li>
+      </ul>
+    </div>
+
+    <div class="container innr-cont-area">
+      <div class="row">
+        <div class="col-sm-12 product-listing">
+          <div class="row">
+            <div class="col-sm-12 filtering">
+              <div class="pull-left name">
+                Special Offers
+              </div>
+
+              <div class="pull-right">
+                <span> Sort By : </span>
+                <select>
+                  <option>Price</option>
+                </select>
+              </div>
+            </div><!--/.filtering-->
+          </div><!--/.row-->
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="prod-bx">
+                <div class="img">
+                  <a href="#"><img src="images/spl-offr1.jpg"></a>
+                  <span class="disc">30%</span>
+                </div>
+                <h5>Farm, Vegetable, Fruit</h5>
+                <h3>Beetroot</h3>
+                <p>By Kuwait Farm Co.</p> 
+                <div class="price">
+                  <div class="old">KD.420.000</div>
+                  <div class="new">KD.350.000</div>
+                </div>
+              </div><!--/.prod-bx-->
+            </div><!--/.col-sm-4-->
+            <div class="col-sm-3">
+              <div class="prod-bx">
+                <div class="img">
+                  <a href="#"><img src="images/spl-offr2.jpg"></a>
+                  <span class="disc">30%</span>
+                </div>
+                <h5>Farm, Vegetable, Fruit</h5>
+                <h3>Beetroot</h3>
+                <p>By Kuwait Farm Co.</p> 
+                <div class="price clearfix">
+                  <div class="old">KD.420.000</div>
+                  <div class="new">KD.350.000</div>
+                </div>
+              </div><!--/.prod-bx-->
+            </div><!--/.col-sm-4-->
+            <div class="col-sm-3">
+              <div class="prod-bx">
+                <div class="img">
+                  <a href="#"><img src="images/spl-offr3.jpg"></a>
+                  <span class="disc">30%</span>
+                </div>
+                <h5>Farm, Vegetable, Fruit</h5>
+                <h3>Beetroot</h3>
+                <p>By Kuwait Farm Co.</p> 
+                <div class="price clearfix">
+                  <div class="old">KD.420.000</div>
+                  <div class="new">KD.350.000</div>
+                </div>
+              </div><!--/.prod-bx-->
+            </div><!--/.col-sm-4-->
+            <div class="col-sm-3">
+              <div class="prod-bx">
+                <div class="img">
+                  <a href="#"><img src="images/spl-offr1.jpg"></a>
+                  <span class="disc">30%</span>
+                </div>
+                <h5>Farm, Vegetable, Fruit</h5>
+                <h3>Beetroot</h3>
+                <p>By Kuwait Farm Co.</p> 
+                <div class="price clearfix">
+                  <div class="old">KD.420.000</div>
+                  <div class="new">KD.350.000</div>
+                </div>
+              </div><!--/.prod-bx-->
+            </div><!--/.col-sm-4-->
+          </div><!--/.row-->
+          
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="prod-bx">
+                <div class="img">
+                  <a href="#"><img src="images/spl-offr1.jpg"></a>
+                  <span class="disc">30%</span>
+                </div>
+                <h5>Farm, Vegetable, Fruit</h5>
+                <h3>Beetroot</h3>
+                <p>By Kuwait Farm Co.</p> 
+                <div class="price">
+                  <div class="old">KD.420.000</div>
+                  <div class="new">KD.350.000</div>
+                </div>
+              </div><!--/.prod-bx-->
+            </div><!--/.col-sm-4-->
+            <div class="col-sm-3">
+              <div class="prod-bx">
+                <div class="img">
+                  <a href="#"><img src="images/spl-offr2.jpg"></a>
+                  <span class="disc">30%</span>
+                </div>
+                <h5>Farm, Vegetable, Fruit</h5>
+                <h3>Beetroot</h3>
+                <p>By Kuwait Farm Co.</p> 
+                <div class="price clearfix">
+                  <div class="old">KD.420.000</div>
+                  <div class="new">KD.350.000</div>
+                </div>
+              </div><!--/.prod-bx-->
+            </div><!--/.col-sm-4-->
+            <div class="col-sm-3">
+              <div class="prod-bx">
+                <div class="img">
+                  <a href="#"><img src="images/spl-offr3.jpg"></a>
+                  <span class="disc">30%</span>
+                </div>
+                <h5>Farm, Vegetable, Fruit</h5>
+                <h3>Beetroot</h3>
+                <p>By Kuwait Farm Co.</p> 
+                <div class="price clearfix">
+                  <div class="old">KD.420.000</div>
+                  <div class="new">KD.350.000</div>
+                </div>
+              </div><!--/.prod-bx-->
+            </div><!--/.col-sm-4-->
+            <div class="col-sm-3">
+              <div class="prod-bx">
+                <div class="img">
+                  <a href="#"><img src="images/spl-offr1.jpg"></a>
+                  <span class="disc">30%</span>
+                </div>
+                <h5>Farm, Vegetable, Fruit</h5>
+                <h3>Beetroot</h3>
+                <p>By Kuwait Farm Co.</p> 
+                <div class="price clearfix">
+                  <div class="old">KD.420.000</div>
+                  <div class="new">KD.350.000</div>
+                </div>
+              </div><!--/.prod-bx-->
+            </div><!--/.col-sm-4-->
+          </div><!--/.row-->
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="prod-bx">
+                <div class="img">
+                  <a href="#"><img src="images/spl-offr1.jpg"></a>
+                  <span class="disc">30%</span>
+                </div>
+                <h5>Farm, Vegetable, Fruit</h5>
+                <h3>Beetroot</h3>
+                <p>By Kuwait Farm Co.</p> 
+                <div class="price">
+                  <div class="old">KD.420.000</div>
+                  <div class="new">KD.350.000</div>
+                </div>
+              </div><!--/.prod-bx-->
+            </div><!--/.col-sm-4-->
+            <div class="col-sm-3">
+              <div class="prod-bx">
+                <div class="img">
+                  <a href="#"><img src="images/spl-offr2.jpg"></a>
+                  <span class="disc">30%</span>
+                </div>
+                <h5>Farm, Vegetable, Fruit</h5>
+                <h3>Beetroot</h3>
+                <p>By Kuwait Farm Co.</p> 
+                <div class="price clearfix">
+                  <div class="old">KD.420.000</div>
+                  <div class="new">KD.350.000</div>
+                </div>
+              </div><!--/.prod-bx-->
+            </div><!--/.col-sm-4-->
+            <div class="col-sm-3">
+              <div class="prod-bx">
+                <div class="img">
+                  <a href="#"><img src="images/spl-offr3.jpg"></a>
+                  <span class="disc">30%</span>
+                </div>
+                <h5>Farm, Vegetable, Fruit</h5>
+                <h3>Beetroot</h3>
+                <p>By Kuwait Farm Co.</p> 
+                <div class="price clearfix">
+                  <div class="old">KD.420.000</div>
+                  <div class="new">KD.350.000</div>
+                </div>
+              </div><!--/.prod-bx-->
+            </div><!--/.col-sm-4-->
+            <div class="col-sm-3">
+              <div class="prod-bx">
+                <div class="img">
+                  <a href="#"><img src="images/spl-offr1.jpg"></a>
+                  <span class="disc">30%</span>
+                </div>
+                <h5>Farm, Vegetable, Fruit</h5>
+                <h3>Beetroot</h3>
+                <p>By Kuwait Farm Co.</p> 
+                <div class="price clearfix">
+                  <div class="old">KD.420.000</div>
+                  <div class="new">KD.350.000</div>
+                </div>
+              </div><!--/.prod-bx-->
+            </div><!--/.col-sm-4-->
+          </div><!--/.row-->
+        </div><!--/.col-sm-9-->
+      </div>
+
+    </div><!--/.innr-cont-area-->
+
+    <div class="btm-highlights">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="#">
+              <img src="images/delivery.png"><br>
+              Fast<br> delivery
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/quality.png"><br>
+              Quality<br> Products
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/secure.png"><br>
+              SECURE<br> TRANSACTION 
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/trust.png"><br>
+              from trusted<br> food suppliers
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 col-md-3 col">
+            <h2>Information</h2>
+            <ul class="ft-links">
+              <li><a href="about-us.html">About Us </a></li>
+              <li><a href="payment.html">Payment </a></li>
+              <li><a href="terms.html">Terms & Conditions </a></li>
+              <li><a href="privacy-policy.html">Privacy Policy</a></li>
+              <li><a href="contact-us.html">Contact Us </a></li>
+            </ul>
+          </div><!--/.col-sm-4-->
+          <div class="col-sm-4 col-md-3 col">
+            <h2>My Account</h2>
+            <ul class="ft-links">
+              <li><a href="order-history.html">Order History</a></li>
+              <li><a href="address.html">Address </a></li>
+              <li><a href="order-status.html">Order status</a></li>
+              <li><a href="wishlist.html">wish list </a></li>
+            </ul>
+          </div><!--/.col-sm-4-->
+          <div class="col-sm-4 col-md-3 col">
+            <h2>payment methods</h2>
+            <ul class="payment">
+              <li>
+                <a href="payment.html"><img src="images/knet.png"></a>
+              </li>
+              <li>
+                <a href="payment.html"><img src="images/cod.png"></a>
+              </li>
+            </ul>
+          </div><!--/.col-sm-4-->
+          <div class="col-sm-4 col-md-3 col">
+            <h2>Socia Media</h2>
+            <ul class="social">
+              <li><a href="#"><img src="images/fb.png"></a></li>
+              <li><a href="#"><img src="images/insta.png"></a></li>
+              <li><a href="#"><img src="images/twit.png"></a></li>
+            </ul>
+          </div><!--/.col-sm-4-->
+        </div><!--/.row-->
+        <div class="copyright">
+          <span>© 2018 Bastaat. All Rights reserved</span>
+          <span>Powered by <a href="http://www.mawaqaa.com/" target="blank"><img src="images/mawaqaa.png"></a></span>
+        </div>
+      </div><!--/.container-->
+    </footer><!--/footer-->
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script type="text/javascript">
+      function togglePanel (){
+       var w = $(window).width();
+       if (w <= 767) {
+          $('.hide-mob').removeClass('in');
+       } else {
+          $('.hide-mob').addClass('in');
+       }
+    }
+
+    $(window).resize(function(){
+         togglePanel();
+    });
+
+    togglePanel();
+    </script>
+  </body>
+</html>
